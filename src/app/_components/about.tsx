@@ -16,7 +16,7 @@ export function About() {
                 <div className="relative w-full h-100 lg:h-125 xl:h-140 rounded-3xl overflow-hidden">
                     <Image
                         src={about1Img}
-                        alt="Foto do cachorro"
+                        alt="Foto do about 1"
                         fill
                         quality={100}
                         className="object-cover hover:scale-110 duration-300"
@@ -27,7 +27,7 @@ export function About() {
                 <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 overflow-hidden rounded-lg border-white">
                     <Image
                         src={about2Img}
-                        alt="Foto do cachorro 2"
+                        alt="Foto do about 2"
                         fill
                         quality={100}
                         priority
