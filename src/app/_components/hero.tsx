@@ -1,11 +1,10 @@
 import { WhatsappLogo, Heart, ShieldCheck, Users } from '@phosphor-icons/react/dist/ssr'
 import idososImage from '../../../public/idosos.png'
-import logoImage from '../../../public/logo villa branca.png'
 import Image from 'next/image'
 
 export function Hero() {
     return (
-        <section className="bg-[#E2725B] text-white relative overflow-hidden">
+        <section id="inicio" className="bg-[#E2725B] text-white relative overflow-hidden">
 
             <div>
                 <Image
@@ -19,9 +18,9 @@ export function Hero() {
                 <div className='absolute inset-0 bg-black opacity-40 md:hidden'></div>
             </div>
 
-            <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
+            <div className='container mx-auto pt-7 pb-10 lg:pt-0 lg:pb-0 px-4 relative'>
 
-                <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+                <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
 
                     <div className='space-y-6'>
 
@@ -40,7 +39,7 @@ export function Hero() {
                         </p>
 
                         <a
-                            href="https://wa.me/55SEUNUMERO"
+                            href="https://wa.me/5511999999999"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-green-500 hover:bg-green-600 transition-colors px-5 py-3 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
@@ -60,30 +59,13 @@ export function Hero() {
                             </div>
                         </div>
 
-                        <div className="mt-8">
-                            <p className="text-sm mb-4">
-                                <b className="bg-black text-white px-2 py-1 rounded-md">5%</b>{' '}
-                                de desconto na primeira consulta.
-                            </p>
-
-                            <div className='flex mt-4'>
-                                <div className='w-64 hidden lg:block'>
-                                    <Image
-                                        src={logoImage}
-                                        alt='Logo Vila da Maturidade'
-                                        quality={100}
-                                        className='object-fill'
-                                    />
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
-                    <div className='hidden md:block h-full relative'>
+                    <div className='hidden lg:block h-140 relative'>
                         <Image
                             src={idososImage}
                             alt="Casal de idosos felizes e saudáveis"
-                            className='object-contain'
+                            className='object-contain object-bottom'
                             fill
                             sizes='(max-width: 768px) 0vw, 50vw'
                             quality={100}
