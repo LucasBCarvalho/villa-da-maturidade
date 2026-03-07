@@ -14,7 +14,7 @@ const partners = [
 
 export function Footer() {
   return (
-    <footer>
+    <footer id="contato">
 
       <div className="bg-[#f5ede4]">
         <div className="container mx-auto px-4 py-12">

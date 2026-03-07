@@ -46,7 +46,7 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-16" style={{ backgroundColor: '#f5ede4' }}>
+    <section id="depoimentos" className="py-16" style={{ backgroundColor: '#f5ede4' }}>
       <div className="container mx-auto px-4">
 
         <h2 className="text-4xl font-bold text-center mb-2" style={{ color: '#7c3a2a' }}>O que as famílias dizem</h2>
