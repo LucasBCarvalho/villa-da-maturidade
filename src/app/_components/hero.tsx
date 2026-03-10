@@ -39,7 +39,7 @@ export function Hero() {
                         </p>
 
                         <a
-                            href="https://wa.me/5511999999999"
+                            href="https://wa.me/71987552007?text=Olá vim pelo site e gostaria de mais informações"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-green-500 hover:bg-green-600 transition-colors px-5 py-3 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
