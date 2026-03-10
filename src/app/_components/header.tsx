@@ -30,7 +30,6 @@ export function Header() {
             <div className="container mx-auto px-4">
                 <div className="flex items-center justify-between h-20">
 
-                    {/* Logo branca à esquerda */}
                     <a
                         href="#inicio"
                         onClick={(e) => handleNavClick(e, '#inicio')}
@@ -46,7 +45,6 @@ export function Header() {
                         </div>
                     </a>
 
-                    {/* Nav + CTAs alinhados à direita — desktop */}
                     <div className="hidden lg:flex items-center gap-8">
 
                         <nav className="flex items-center gap-6">
@@ -65,14 +63,14 @@ export function Header() {
 
                         <div className="flex items-center gap-3 border-l border-white/20 pl-6">
                             <a
-                                href="tel:+5511999999999"
+                                href="tel:+5571987552007"
                                 className="flex items-center gap-2 text-sm font-medium text-white/80 hover:text-white transition-colors"
                             >
                                 <Phone className="w-4 h-4" weight="fill" />
-                                (11) 99999-9999
+                                (71) 98755-2007
                             </a>
                             <a
-                                href="https://wa.me/5511999999999"
+                                href="https://wa.me/71987552007?text=Olá vim pelo site e gostaria de mais informações"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-green-500 hover:bg-green-600 active:bg-green-700 transition-colors text-white text-sm font-semibold px-5 py-2.5 rounded-lg flex items-center gap-2 shadow-sm"
@@ -83,7 +81,6 @@ export function Header() {
                         </div>
                     </div>
 
-                    {/* Botão menu mobile */}
                     <button
                         className="lg:hidden p-2 rounded-lg text-white hover:bg-white/10 transition-colors"
                         onClick={() => setMenuOpen(!menuOpen)}
@@ -97,7 +94,6 @@ export function Header() {
                 </div>
             </div>
 
-            {/* Menu mobile */}
             <div
                 className={`lg:hidden bg-[#d4644d] overflow-hidden transition-all duration-300 ${
                     menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
@@ -116,14 +112,14 @@ export function Header() {
                     ))}
                     <div className="border-t border-white/20 mt-2 pt-3 flex flex-col gap-2">
                         <a
-                            href="tel:+5511999999999"
+                            href="tel:+5571987552007"
                             className="flex items-center gap-2 text-white/80 text-sm px-4 py-2"
                         >
                             <Phone className="w-4 h-4" weight="fill" />
-                            (11) 99999-9999
+                            (71) 98755-2007
                         </a>
                         <a
-                            href="https://wa.me/5511999999999"
+                            href="https://wa.me/71987552007?text=Olá vim pelo site e gostaria de mais informações"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
