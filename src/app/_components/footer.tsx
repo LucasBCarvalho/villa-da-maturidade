@@ -45,7 +45,7 @@ export function Footer() {
             Pronto para cuidar de quem você ama? Entre em contato agora.
           </p>
           <a
-            href="https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações"
+            href="https://wa.me/71987552007?text=Olá vim pelo site e gostaria de mais informações"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 transition-colors px-5 py-2 rounded-md font-semibold text-sm text-white whitespace-nowrap"
@@ -79,15 +79,15 @@ export function Footer() {
               <ul className="space-y-3 text-sm text-[#f5ede4]/80">
                 <li className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-0.5 shrink-0 text-[#f5c4b0]" />
-                  contato@viladamaturidade.com.br
+                  residencialviladamaturidade@gmail.com
                 </li>
                 <li className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-0.5 shrink-0 text-[#f5c4b0]" />
-                  (67) 9999-8800
+                  (71) 98755-2007
                 </li>
                 <li className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#f5c4b0]" />
-                  <span>Rua das Acácias, 123 — Centro<br />Campo Grande | MS</span>
+                  <span>Av. Brg. Alberto C. Matos, 1142 — Aracuí, Lauro de Freitas - BA, 42702-010</span>
                 </li>
               </ul>
             </div>
@@ -103,7 +103,7 @@ export function Footer() {
                 >
                   <FacebookLogo className="w-5 h-5" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.instagram.com/viladamaturidade/" target="_blank" rel="noopener noreferrer"
                   className="p-2 rounded-full bg-[#f5ede4]/15 hover:bg-[#f5ede4]/30 text-[#f5ede4] transition-colors"
                 >
                   <InstagramLogo className="w-5 h-5" />
